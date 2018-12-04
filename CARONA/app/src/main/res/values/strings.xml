@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CARONAS IF</string>
+    <string name="title_activity_tela_central">Tela_central</string>
+    <string name="title_conta">Conta</string>
+    <string name="title_buscar">Buscar</string>
+    <string name="title_oferecer">Oferecer Carona</string>
+    <string name="title_activity_cadastro_carona">Cadastro_carona</string>
+    <string name="registrar_carona">Registrar CARONA</string>
+    <string name="title_activity_teste">teste</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="listar">Listar</string>
+    <string name="add_carona">Add carona</string>
+    <string name="perfil">Perfil</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

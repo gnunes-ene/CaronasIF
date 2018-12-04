@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CaronaFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorkd"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:layout_row="0"
+        android:layout_column="0">
+
+        <TextView
+            android:text="Adicionar Carona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <Space
+        android:layout_width="5dp"
+        android:layout_height="10dp"/>
+    <TextView
+        android:id="@+id/aviso"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="Clique abaixo para selecionar a data da carona" />
+
+    <TextView
+        android:id="@+id/Data"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="20"
+        android:gravity="center"
+        android:hint="Data"
+        android:inputType="date" />
+
+
+    <TextView
+        android:id="@+id/aviso2"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="Agora selecione o horário de sua carona" />
+
+    <TextView
+        android:id="@+id/hora"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="20"
+        android:inputType="time"
+        android:gravity="center"
+        android:hint="hora" />
+
+    <TextView
+        android:id="@+id/partida"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione o local de partida" />
+
+    <Space
+        android:layout_width="5dp"
+        android:layout_height="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="5dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/destino"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione o local de destino" />
+
+    <Space
+        android:layout_width="5dp"
+        android:layout_height="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <Space
+        android:layout_width="5dp"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/Vagas"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insira a quantidade de vagas disponíveis" />
+
+    <Space
+        android:layout_width="5dp"
+        android:layout_height="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:id="@+id/cadastro_carona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar Carona"
+        android:textAlignment="center"
+        android:textColor="@color/colorbranco"
+        android:background="@color/colorkd"
+        android:layout_marginTop="26dp"
+        android:textSize="08pt" />
+
+</LinearLayout>

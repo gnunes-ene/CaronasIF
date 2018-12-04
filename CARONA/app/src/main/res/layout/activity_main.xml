@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="360dp"/>
+
+
+    <Button
+        android:id="@+id/Cadastro"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorbranco"
+        android:layout_height="wrap_content"
+        android:textSize="09pt"
+        android:background="#80000000"
+        android:text="Cadastre-se" />
+
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorbranco"
+        android:textSize="09pt"
+        android:background="#80000000"
+        android:text="Login" />
+
+</LinearLayout>

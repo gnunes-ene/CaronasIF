@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tela_inicial"
+    android:background="@drawable/road">
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/compartilhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Compartilhe momentos, compartilhe atitude, compartilhe caronas"
+        android:textSize="15pt"
+        android:textColor="@color/colorbranco"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/Cadastre_se"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorbranco"
+        android:layout_height="wrap_content"
+        android:textSize="09pt"
+        android:background="#80000000"
+        android:layout_marginTop="150dp"
+        android:text="Cadastre-se" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorbranco"
+        android:textSize="09pt"
+        android:background="#80000000"
+        android:layout_marginTop="30dp"
+        android:text="Login" />
+
+</LinearLayout>
